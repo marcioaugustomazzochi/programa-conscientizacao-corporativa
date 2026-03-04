@@ -35,8 +35,17 @@ O sistema realiza:
 programa-conscientizacao-corporativa/
 │
 ├── emails/ # Templates HTML mensais
+│ ├── mes01_phishing.html
+│ ├── mes02_senhas.html
+│ └── ...
+│
 ├── src/ # Scripts Python
+│ ├── send_email.py
+│ └── scheduler.py
+│
 ├── config/ # Variáveis de ambiente
+│ └── .env
+│
 ├── requirements.txt # Dependências
 ├── .gitignore
 └── README.md
