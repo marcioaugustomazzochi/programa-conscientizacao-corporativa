@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![License](https://img.shields.io/badge/license-Educacional-green)
+
 # 📢 Programa de Conscientização Corporativa
 
 Sistema automatizado de envio mensal de e-mails para campanhas de conscientização em Segurança da Informação no ambiente corporativo.
