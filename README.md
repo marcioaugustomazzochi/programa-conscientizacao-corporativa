@@ -31,43 +31,38 @@ O sistema realiza:
 
 ## 📂 Estrutura do projeto
 
-
-programa-conscientizacao-corporativa/
+```text
+programa-conscientizacao-corporativa
 │
-├── emails/ # Templates HTML mensais
-│ ├── mes01_phishing.html
-│ ├── mes02_senhas.html
-│ └── ...
+├─ emails
+│  ├─ mes01_phishing.html
+│  ├─ mes02_senhas.html
+│  └─ ...
 │
-├── src/ # Scripts Python
-│ ├── send_email.py
-│ └── scheduler.py
+├─ src
+│  ├─ send_email.py
+│  └─ scheduler.py
 │
-├── config/ # Variáveis de ambiente
-│ └── .env
+├─ config
+│  └─ .env
 │
-├── requirements.txt # Dependências
-├── .gitignore
-└── README.md
+├─ requirements.txt
+├─ .gitignore
+└─ README.md
+🚀 Tecnologias utilizadas
 
+Python 3
 
----
+SMTP (envio de e-mail)
 
-## 🚀 Tecnologias utilizadas
+python-dotenv
 
-- Python 3  
-- SMTP (envio de e-mail)  
-- python-dotenv  
-- schedule  
-- HTML para templates  
+schedule
 
----
+HTML para templates
 
-## ⚙️ Configuração
-
-### 1️⃣ Clonar o repositório
-
-```bash
+⚙️ Configuração
+1️⃣ Clonar o repositório
 git clone https://github.com/SEU-USUARIO/programa-conscientizacao-corporativa.git
 cd programa-conscientizacao-corporativa
 2️⃣ Criar ambiente virtual
@@ -89,9 +84,6 @@ EMAIL_TO=destinatario@empresa.com
 ⚠️ Nunca versionar credenciais reais.
 
 ▶️ Execução
-
-Para iniciar o envio automatizado:
-
 python src/scheduler.py
 📆 Temas sugeridos para os 12 meses
 
