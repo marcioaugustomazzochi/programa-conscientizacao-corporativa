@@ -1,6 +1,6 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Python](https://img.shields.io/badge/Python-3.x-blue)]()
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # 📢 Programa de Conscientização Corporativa
 
