@@ -31,114 +31,110 @@ O sistema realiza:
 
 ## 📂 Estrutura do projeto
 
-```text
-programa-conscientizacao-corporativa
-│
-├─ emails
-│  ├─ mes01_phishing.html
-│  ├─ mes02_senhas.html
-│  └─ ...
-│
-├─ src
-│  ├─ send_email.py
-│  └─ scheduler.py
-│
-├─ config
-│  └─ .env
-│
-├─ requirements.txt
-├─ .gitignore
-└─ README.md
-🚀 Tecnologias utilizadas
+programa-conscientizacao-corporativa/  
+│  
+├── emails/  
+│   ├── janeiro.html  
+│   ├── fevereiro.html  
+│   ├── marco.html  
+│   └── ...  
+│  
+├── scripts/  
+│   └── envio_emails.py  
+│  
+├── .env.exemplo  
+├── requirements.txt  
+└── README.md  
 
-Python 3
+---
 
-SMTP (envio de e-mail)
+## 🚀 Como executar
 
-python-dotenv
+### 1️⃣ Clonar o repositório
 
-schedule
+git clone https://github.com/SEU-USUARIO/programa-conscientizacao-corporativa.git  
+cd programa-conscientizacao-corporativa  
 
-HTML para templates
+---
 
-⚙️ Configuração
-1️⃣ Clonar o repositório
-git clone https://github.com/SEU-USUARIO/programa-conscientizacao-corporativa.git
-cd programa-conscientizacao-corporativa
-2️⃣ Criar ambiente virtual
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-3️⃣ Configurar variáveis de ambiente
+### 2️⃣ Criar e ativar ambiente virtual (opcional)
 
-Criar arquivo:
+python -m venv venv  
+source venv/bin/activate  # Linux/Mac  
+venv\Scripts\activate     # Windows  
 
-config/.env
+---
+
+### 3️⃣ Instalar dependências
+
+pip install -r requirements.txt  
+
+---
+
+### 4️⃣ Configurar variáveis de ambiente
+
+Copie o arquivo de exemplo:
+
+cp .env.exemplo .env  
+
+Edite o `.env` com suas credenciais SMTP.
 
 Exemplo:
 
-EMAIL_USER=seuemail@gmail.com
-EMAIL_PASS=sua_senha_de_app
-EMAIL_TO=destinatario@empresa.com
+EMAIL_REMETENTE=seuemail@empresa.com  
+EMAIL_SENHA=sua_senha_segura  
+SMTP_SERVIDOR=smtp.empresa.com  
+SMTP_PORTA=587  
+EMAIL_DESTINO=destinatario@empresa.com  
 
-⚠️ Nunca versionar credenciais reais.
+⚠️ **Nunca versionar o arquivo `.env` real.**
 
-▶️ Execução
-python src/scheduler.py
-📆 Temas sugeridos para os 12 meses
+---
 
-Phishing
+### 5️⃣ Executar o sistema
 
-Senhas fortes
+Execução manual:
 
-Engenharia social
+python scripts/envio_emails.py  
 
-Uso seguro do e-mail
+Se houver scheduler:
 
-Dispositivos removíveis
+python src/scheduler.py  
 
-Trabalho remoto seguro
+---
 
-Atualizações e patches
+## 🗓️ Agendamento automático (opcional)
 
-Backup
+### Linux (cron)
 
-Wi-Fi público
+crontab -e  
 
-LGPD e privacidade
+Exemplo de execução mensal:
 
-Ransomware
+0 9 1 * * /usr/bin/python3 /caminho/projeto/scripts/envio_emails.py  
 
-Boas práticas gerais
+---
 
-🔐 Boas práticas de segurança
+## 🛡️ Boas práticas de segurança
 
-❌ Não versionar o arquivo .env
+- 🔒 Utilize senha de aplicativo no e-mail  
+- 🔒 Não exponha credenciais no código  
+- 🔒 Use variáveis de ambiente  
+- 🔒 Restrinja permissões do SMTP  
+- 🔒 Mantenha logs de envio  
 
-❌ Não expor senhas ou tokens
+---
 
-✅ Utilizar senha de aplicativo de e-mail
+## 📌 Possíveis melhorias futuras
 
-✅ Revisar lista de destinatários
+- 📊 Dashboard de métricas de abertura  
+- 📩 Integração com serviços de e-mail (SendGrid, SES)  
+- 👥 Segmentação por área/departamento  
+- 🧪 Testes automatizados  
+- 🐳 Containerização com Docker  
 
-✅ Validar conformidade com LGPD
+---
 
-📊 Possíveis melhorias futuras
+## 👨‍💻 Autor
 
-📈 Métricas de abertura de e-mail
-
-🏢 Suporte multiempresa
-
-🌐 Interface web administrativa
-
-☁️ Execução via GitHub Actions
-
-📱 Templates responsivos
-
-👨‍💻 Autor
-
-Projeto desenvolvido para fins educacionais e de promoção da cultura de Segurança da Informação.
-
-📄 Licença
-
-Este projeto é destinado a fins educacionais e pode ser adaptado conforme a necessidade da organização.
+Projeto desenvolvido para fins educacionais e de demonstração de automação em campanhas de Segurança da Informação.
