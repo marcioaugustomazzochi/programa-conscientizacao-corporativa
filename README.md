@@ -1,12 +1,10 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dependências](https://img.shields.io/badge/Dependencies-pip-orange)](https://pip.pypa.io/)
 [![Testes](https://img.shields.io/badge/Testes-Pass-brightgreen)]()
 [![SMTP Config](https://img.shields.io/badge/SMTP-Configurado-blueviolet)]()
 [![Automação](https://img.shields.io/badge/Automação-Cron-red)]()
 [![Versão](https://img.shields.io/badge/Versão-1.0.0-lightgrey)]()
-[![Última Atualização](https://img.shields.io/badge/Última_Atualização-2026--03--05-blue)]()
 [![Docker](https://img.shields.io/badge/Docker-Suportado-blue)]()
 
 # 📢 Programa de Conscientização Corporativa
@@ -28,7 +26,23 @@ A solução automatiza campanhas de awareness ao longo de 12 meses, contribuindo
 
 ---
 
-## 🧠 Como funciona
+## 🛠️ Ferramentas e Tecnologias
+
+Este projeto utiliza as seguintes ferramentas e tecnologias:
+
+- 🐍 **Python 3.x** – Linguagem principal para automação, leitura de templates HTML e envio de e-mails via SMTP.  
+- 📦 **pip** – Gerenciador de pacotes para instalar dependências do projeto.  
+- 🌿 **python-dotenv** – Biblioteca para carregar variáveis de ambiente de forma segura, mantendo credenciais fora do código.  
+- ⏱️ **schedule** – Biblioteca para agendamento de tarefas periódicas em Python, permitindo execução mensal automatizada.  
+- 📧 **SMTP** – Protocolo de envio de e-mails para integração com servidores de e-mail corporativos ou pessoais.  
+- 🎨 **HTML/CSS** – Para criação de templates de e-mails educativos e visualmente atrativos.  
+- 🖥️ **cron (Linux/Mac)** – Agendador de tarefas do sistema para automatizar o envio mensal de e-mails.  
+- 🔧 **Git/GitHub** – Controle de versão do código e documentação do projeto, hospedagem de repositório público.  
+- 🐳 **Docker (opcional)** – Para containerização do sistema, garantindo consistência do ambiente de execução.
+
+  ---
+
+  ## 🧠 Como funciona
 
 O sistema realiza:
 
