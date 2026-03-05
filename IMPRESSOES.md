@@ -1,5 +1,12 @@
 # 📢 Programa de Conscientização Corporativa
 
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/) 
+[![Dependências](https://img.shields.io/badge/Dependencies-pip-green)](https://pip.pypa.io/) 
+[![Env Variables](https://img.shields.io/badge/Env%20Variables-.env-yellow)](#) 
+[![SMTP](https://img.shields.io/badge/SMTP-Config-orange)](#) 
+[![Testado](https://img.shields.io/badge/Tested-Pass-brightgreen)](#) 
+[![Automação](https://img.shields.io/badge/Automation-Cron-blueviolet)](#)
+
 Este projeto tem como objetivo automatizar o envio de campanhas mensais de conscientização em Segurança da Informação via e-mail, garantindo que os colaboradores recebam conteúdos educativos ao longo de 12 meses.
 
 ## Estrutura do Projeto
