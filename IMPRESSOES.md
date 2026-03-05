@@ -79,13 +79,21 @@ Exemplo: enviar dia 1º de cada mês às 9h:
 
 Aqui você pode adicionar **7 prints** para documentar cada etapa do projeto:
 
-**Print 1** – Configuração do arquivo `.env` com credenciais.  
-**Print 2** – Instalação das dependências via pip.  
-**Print 3** – Template HTML do e-mail pronto para envio.  
-**Print 4** – Execução do script mostrando envio do e-mail de Janeiro.  
-**Print 5** – E-mail de Janeiro recebido na caixa de entrada.  
-**Print 6** – Cron job configurado para envio mensal.  
-**Print 7** – Caixa de entrada mostrando os e-mails de Janeiro a Dezembro.
+**Print 1** – Configuração do arquivo `.env` com credenciais.  <img width="1920" height="936" alt="print_01_clone_repositorio" src="https://github.com/user-attachments/assets/74bc2a48-49b8-482d-a883-4023f48c30ef" />
+
+**Print 2** – Instalação das dependências via pip. <img width="1920" height="936" alt="print_02_venv_ativo" src="https://github.com/user-attachments/assets/9dc9c5ae-718b-4646-b263-dae0444c978c" />
+
+**Print 3** – Template HTML do e-mail pronto para envio. <img width="1920" height="936" alt="print_03_dependencias_instaladas" src="https://github.com/user-attachments/assets/5709552c-158b-4912-8eb7-6a65b990eff7" />
+
+**Print 4** – Execução do script mostrando envio do e-mail de Janeiro. <img width="1920" height="936" alt="print_04_env_configurado" src="https://github.com/user-attachments/assets/48eb946d-2ccc-4683-9585-21bc09bf499a" />
+
+**Print 5** – E-mail de Janeiro recebido na caixa de entrada. <img width="1920" height="936" alt="print_04_script_envio_criado" src="https://github.com/user-attachments/assets/1450d00b-7e10-4141-9954-ea3edf006422" />
+ 
+**Print 6** – Cron job configurado para envio mensal.  <img width="1920" height="936" alt="print preparação para o envio" src="https://github.com/user-attachments/assets/c6488f88-b49f-4c78-8691-49f12608d388" />
+
+**Print 7** – Caixa de entrada mostrando os e-mails de Janeiro a Dezembro.<img width="1920" height="1080" alt="Print email enviado corretamente" src="https://github.com/user-attachments/assets/1dec6dd4-174c-4611-9970-66910c957c07" />
+
+<img width="1920" height="1080" alt="print todos os emails enviados " src="https://github.com/user-attachments/assets/7167e98b-9e3d-44ca-86b9-154b94849c92" />
 
 ## Conclusão
 
