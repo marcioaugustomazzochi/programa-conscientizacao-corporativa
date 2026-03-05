@@ -1,9 +1,13 @@
-[![Instalação](https://img.shields.io/badge/Instalação-Concluída-brightgreen)]()
-[![Configuração](https://img.shields.io/badge/Configuração-Concluída-brightgreen)]()
-[![Testes](https://img.shields.io/badge/Testes-Pass-brightgreen)]()
-[![Envio de E-mails](https://img.shields.io/badge/Envio-E-mail_OK-blue)]()
-[![Automação](https://img.shields.io/badge/Automação-Cron_OK-blueviolet)]()
-[![Documentação](https://img.shields.io/badge/Documentação-Pronta-lightgrey)]()
+[![Python 3.x](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
+[![SMTP Configurado](https://img.shields.io/badge/SMTP-OK-blueviolet)]()
+[![Env Variables](https://img.shields.io/badge/Env-.env-yellow)]()
+[![Automação Cron](https://img.shields.io/badge/Automação-Cron-red)]()
+[![Docker Suportado](https://img.shields.io/badge/Docker-Sim-blue)]()
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)]()
+[![License MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-lightgrey)]()
+[![Concluído](https://img.shields.io/badge/Concluído-Parcial-brightgreen)]()
+[![Code Quality](https://img.shields.io/badge/Qualidade-Clean-blue)]()
 
 # 📢 Programa de Conscientização Corporativa
 
