@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Comentário: Essas bibliotecas permitem gerenciar variáveis de ambiente e agendamento de tarefas.  
 
 **Print 1:**  
-![Print 1 – Instalação das dependências via pip](prints/print1.png)
+![Print 1 – Instalação das dependências](prints/print1.png)
 
 ## 2️⃣ Configuração das variáveis de ambiente
 
@@ -40,7 +40,7 @@ EMAIL_DESTINO=seuemail@gmail.com
 Comentário: As credenciais ficam fora do código, garantindo segurança. Nunca versionar o .env real no GitHub.  
 
 **Print 2:**  
-![Print 2 – Configuração do arquivo .env com credenciais](prints/print2.png)
+![Print 2 – Configuração do arquivo .env](prints/print2.png)
 
 ## 3️⃣ Script de envio de e-mails
 
@@ -53,7 +53,7 @@ O script scripts/envio_emails.py realiza:
 Cada execução envia o e-mail referente a um mês de conscientização.  
 
 **Print 3:**  
-![Print 3 – Template HTML do e-mail pronto para envio](prints/print3.png)
+![Print 3 – Template HTML do e-mail](prints/print3.png)
 
 ## 4️⃣ Testando variáveis de ambiente
 
