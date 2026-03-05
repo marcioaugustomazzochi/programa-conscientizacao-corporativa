@@ -1,11 +1,9 @@
-[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Dependências](https://img.shields.io/badge/Dependencies-pip-orange)](https://pip.pypa.io/)
+[![Instalação](https://img.shields.io/badge/Instalação-Concluída-brightgreen)]()
+[![Configuração](https://img.shields.io/badge/Configuração-Concluída-brightgreen)]()
 [![Testes](https://img.shields.io/badge/Testes-Pass-brightgreen)]()
-[![SMTP Config](https://img.shields.io/badge/SMTP-Configurado-blueviolet)]()
-[![Automação](https://img.shields.io/badge/Automação-Cron-red)]()
-[![Versão](https://img.shields.io/badge/Versão-1.0.0-lightgrey)]()
-[![Docker](https://img.shields.io/badge/Docker-Suportado-blue)]()
+[![Envio de E-mails](https://img.shields.io/badge/Envio-E-mail_OK-blue)]()
+[![Automação](https://img.shields.io/badge/Automação-Cron_OK-blueviolet)]()
+[![Documentação](https://img.shields.io/badge/Documentação-Pronta-lightgrey)]()
 
 # 📢 Programa de Conscientização Corporativa
 
