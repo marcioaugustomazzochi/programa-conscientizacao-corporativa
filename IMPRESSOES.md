@@ -25,7 +25,8 @@ pip install -r requirements.txt
 
 Comentário: Essas bibliotecas permitem gerenciar variáveis de ambiente e agendamento de tarefas.  
 
-Print 1: Instalação das dependências via pip.
+**Print 1:**  
+![Print 1 – Instalação das dependências via pip](prints/print1.png)
 
 ## 2️⃣ Configuração das variáveis de ambiente
 
@@ -38,7 +39,8 @@ EMAIL_DESTINO=seuemail@gmail.com
 
 Comentário: As credenciais ficam fora do código, garantindo segurança. Nunca versionar o .env real no GitHub.  
 
-Print 2: Configuração do arquivo .env com credenciais.
+**Print 2:**  
+![Print 2 – Configuração do arquivo .env com credenciais](prints/print2.png)
 
 ## 3️⃣ Script de envio de e-mails
 
@@ -50,7 +52,8 @@ O script scripts/envio_emails.py realiza:
 
 Cada execução envia o e-mail referente a um mês de conscientização.  
 
-Print 3: Template HTML do e-mail pronto para envio.
+**Print 3:**  
+![Print 3 – Template HTML do e-mail pronto para envio](prints/print3.png)
 
 ## 4️⃣ Testando variáveis de ambiente
 
@@ -58,7 +61,8 @@ python -c "import os; from dotenv import load_dotenv; load_dotenv(); print(os.ge
 
 Comentário: Isso confirma que o .env está correto.  
 
-Print 4: Teste do carregamento das variáveis de ambiente.
+**Print 4:**  
+![Print 4 – Teste do carregamento das variáveis de ambiente](prints/print4.png)
 
 ## 5️⃣ Execução do envio
 
@@ -71,8 +75,11 @@ Conectando em smtp.gmail.com:587...
 Login realizado com sucesso!  
 📧 E-mail enviado para marciomazzochi@gmail.com referente a Janeiro ✅  
 
-Print 5: Execução do script mostrando envio do e-mail de Janeiro.  
-Print 6: E-mail de Janeiro recebido na caixa de entrada.
+**Print 5:**  
+![Print 5 – Execução do script mostrando envio do e-mail de Janeiro](prints/print5.png)  
+
+**Print 6:**  
+![Print 6 – E-mail de Janeiro recebido na caixa de entrada](prints/print6.png)
 
 ## 6️⃣ Automação Mensal (Opcional)
 
@@ -84,7 +91,8 @@ Exemplo: enviar dia 1º de cada mês às 9h:
 
 Comentário: Isso garante que a campanha de conscientização será enviada automaticamente durante os 12 meses.  
 
-Print 7: Cron job configurado para envio mensal.
+**Print 7:**  
+![Print 7 – Cron job configurado para envio mensal](prints/print7.png)
 
 ## Conclusão
 
