@@ -109,7 +109,8 @@ Exemplo: enviar dia 1º de cada mês às 9h:
 Comentário: Isso garante que a campanha de conscientização será enviada automaticamente durante os 12 meses.  
 
 **Print 7:**  
-<img width="1920" height="1080" alt="Print email enviado corretamente" src="https://github.com/user-attachments/assets/67c9a2fe-98c1-473a-b688-fec2cb09ccfe" />  
+<img width="1920" height="1080" alt="Print email enviado corretamente" src="https://github.com/user-attachments/assets/67c9a2fe-98c1-473a-b688-fec2cb09ccfe" /> 
+
 <img width="1920" height="1080" alt="print todos os emails enviados " src="https://github.com/user-attachments/assets/5c64b135-0642-4dd7-ac3e-4ea38ea70bda" />
 
 ## Conclusão
