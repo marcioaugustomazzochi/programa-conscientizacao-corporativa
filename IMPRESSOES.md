@@ -35,6 +35,8 @@ Comentário: Essas bibliotecas permitem gerenciar variáveis de ambiente e agend
 **Print 1:**  
 <img width="1920" height="936" alt="print_01_clone_repositorio" src="https://github.com/user-attachments/assets/d53dac56-ae9a-46b3-b75b-f26dc9f13c72" />
 
+---
+
 ## 2️⃣ Configuração das variáveis de ambiente
 
 Crie o arquivo .env (copiando de .env.exemplo) e configure suas credenciais:  
@@ -49,6 +51,8 @@ Comentário: As credenciais ficam fora do código, garantindo segurança. Nunca 
 **Print 2:**  
 <img width="1920" height="936" alt="print_02_venv_ativo" src="https://github.com/user-attachments/assets/ce7a221e-7d2a-4a04-9847-f7587bfc45a4" />
 
+---
+
 ## 3️⃣ Script de envio de e-mails
 
 O script scripts/envio_emails.py realiza:  
@@ -62,6 +66,8 @@ Cada execução envia o e-mail referente a um mês de conscientização.
 **Print 3:**  
 <img width="1920" height="936" alt="print_03_dependencias_instaladas" src="https://github.com/user-attachments/assets/5cf2168c-7c51-4843-8fae-dc4ef2e92b2c" />
 
+---
+
 ## 4️⃣ Testando variáveis de ambiente
 
 python -c "import os; from dotenv import load_dotenv; load_dotenv(); print(os.getenv('EMAIL_SENHA'))"  
@@ -70,6 +76,8 @@ Comentário: Isso confirma que o .env está correto.
 
 **Print 4:**  
 <img width="1920" height="936" alt="print_04_env_configurado" src="https://github.com/user-attachments/assets/dc5febdb-5a7d-40cd-ae0d-2f8aad3af2b6" />
+
+---
 
 ## 5️⃣ Execução do envio
 
@@ -87,6 +95,8 @@ Login realizado com sucesso!
 
 **Print 6:**  
 <img width="1920" height="936" alt="print preparação para o envio" src="https://github.com/user-attachments/assets/48670593-2f02-430c-b1e6-a141c7f09851" />
+
+---
 
 ## 6️⃣ Automação Mensal (Opcional)
 
