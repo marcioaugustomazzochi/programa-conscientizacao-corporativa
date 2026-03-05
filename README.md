@@ -1,6 +1,13 @@
-[![Python](https://img.shields.io/badge/Python-3.x-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.x-blue)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Dependências](https://img.shields.io/badge/Dependencies-pip-orange)](https://pip.pypa.io/)
+[![Testes](https://img.shields.io/badge/Testes-Pass-brightgreen)]()
+[![SMTP Config](https://img.shields.io/badge/SMTP-Configurado-blueviolet)]()
+[![Automação](https://img.shields.io/badge/Automação-Cron-red)]()
+[![Versão](https://img.shields.io/badge/Versão-1.0.0-lightgrey)]()
+[![Última Atualização](https://img.shields.io/badge/Última_Atualização-2026--03--05-blue)]()
+[![Docker](https://img.shields.io/badge/Docker-Suportado-blue)]()
 
 # 📢 Programa de Conscientização Corporativa
 
